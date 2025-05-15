@@ -18,6 +18,8 @@ app.MapGet("/", () => "WEER - WEERsomstandigheden Evalueren En Rapporteren");
 
 app.MapGet("/steden", (IDomeinController dc) => dc.GeefSteden());
 
+app.MapGet("/weerStation", (IDomeinController dc) => dc.GeefWeerstations());
+
 //TODO api aanvullen
 
 app.Run();
