@@ -13,7 +13,7 @@ Er wordt bijvoorbeeld gebruik gemaakt van de proxy, decorator en facade pattern.
 # Run & Build & Tests
 (Run) => dotnet build 
 (Build) => dotnet run --project WeerApp
-(Test) => run test
+(Test): Testen gebeurd via het ApiCalls.http bestand
 
 
 
