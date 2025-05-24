@@ -11,13 +11,15 @@ public abstract class WeerStation
     {
         Locatie = locatie;
     }
+    public abstract Meting DoeMeting();
+
+    //public void VoegMetingToe(Meting meting)
+    //{
+    //    GedaneMetingen.Add(meting);
+    //}
+
     public List<Meting> GeefGedaneMetingen()
     {
         return GedaneMetingen;
-    }
-    public abstract Meting GenereerMeting();
-    public void VoegMetingToe(Meting meting)
-    {
-        GedaneMetingen.Add(meting);
     }
 }

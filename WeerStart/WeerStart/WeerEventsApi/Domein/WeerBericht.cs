@@ -1,28 +1,62 @@
-using WeerEventsApi.Steden;
+using WeerEventsApi.Domein.Stations;
 
 namespace WeerEventsApi.Domein;
 
 public class WeerBericht
 {
-    string conclusie;
     public DateTime TijdVanCreatie { get; }
     public string Inhoud { get; }
-    public bool IsGoed;
-
-    public WeerBericht()
-    {
-        TijdVanCreatie = DateTime.Now;
-    }
-
+     
     public WeerBericht(List<Meting> metingen)
     {
+        TijdVanCreatie = DateTime.Now;
+
+        if (metingen == null || metingen.Count == 0)
+        {
+            Inhoud = "Geen metingen beschikbaar.";
+            return;
+        }
+
         Thread.Sleep(5000);
-        //conclusie = metingen.Average(m => m.Waarde) > 15 ? "goed" : "slecht";
-        ToString();
-    }
-    public override string? ToString()
-    {
-        return $"Op basis van metingen en mijn diepzinnig computermodel kan ik zeggen dat er kans is op {conclusie} weer.";
+        double gemiddelde = metingen.Average(m => m.Waarde);
+
+        string conclusie = "onbekend";
+        foreach (var m in metingen)
+        {
+            switch (m.Eenheid)
+            {
+                case Eenheid.kmh:
+                    if (m.Waarde < 30)
+                    {
+                        conclusie = "goed";
+                    }
+                    break;
+                case Eenheid.ms:
+                    if (m.Waarde > 50)
+                    {
+                        conclusie = "goed";
+                    }
+                    break;
+                case Eenheid.C:
+                    if (m.Waarde > 20)
+                    {
+                        conclusie = "slecht";
+                    }
+                    break;
+                case Eenheid.hPa:
+                    if (m.Waarde < 1000)
+                    {
+                        conclusie = "slecht";
+                    }
+                    break;
+                default:
+                    conclusie = "onbekend";
+                    break;
+            }
+        }
+
+        Inhoud = $"Op basis van {metingen.Count} metingenen mijn diepzinnig computermodel kan ik zeggen dat er kans is op {conclusie} weer.";
     }
 }
 
+ 

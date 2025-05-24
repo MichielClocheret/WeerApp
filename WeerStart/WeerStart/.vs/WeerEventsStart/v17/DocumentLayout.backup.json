@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\stations\\weerstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\stations\\weerstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\facade\\controllers\\domeincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\facade\\controllers\\domeincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\managers\\weerstationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\managers\\weerstationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\apicalls.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\apicalls.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\managers\\iweerstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\managers\\iweerstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\stations\\temperatuurstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\stations\\temperatuurstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\managers\\weerberichtmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\managers\\weerberichtmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\weerbericht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\weerbericht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\meting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\meting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|c:\\users\\michi\\desktop\\weerapp\\weerstart\\weerstart\\weereventsapi\\domein\\managers\\iweerbericht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6912D4-7D01-4116-9BAA-CFA76E93446D}|WeerEventsApi\\WeerEventsApi.csproj|solutionrelative:weereventsapi\\domein\\managers\\iweerbericht.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,63 +34,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WeerStationManager.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\WeerStationManager.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Managers\\WeerStationManager.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\WeerStationManager.cs",
-              "RelativeToolTip": "WeerEventsApi\\Domein\\Managers\\WeerStationManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:22:54.308Z",
+              "Title": "ApiCalls.http",
+              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\ApiCalls.http",
+              "RelativeDocumentMoniker": "WeerEventsApi\\ApiCalls.http",
+              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\ApiCalls.http",
+              "RelativeToolTip": "WeerEventsApi\\ApiCalls.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-24T14:03:47.632Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IWeerStation.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\IWeerStation.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Managers\\IWeerStation.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\IWeerStation.cs",
-              "RelativeToolTip": "WeerEventsApi\\Domein\\Managers\\IWeerStation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:22:49.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Program.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Program.cs",
-              "RelativeToolTip": "WeerEventsApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:46:18.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TemperatuurStation.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Stations\\TemperatuurStation.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Stations\\TemperatuurStation.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Stations\\TemperatuurStation.cs",
-              "RelativeToolTip": "WeerEventsApi\\Domein\\Stations\\TemperatuurStation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:20:54.104Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -108,48 +62,61 @@
               "RelativeDocumentMoniker": "WeerEventsApi\\Facade\\Controllers\\DomeinController.cs",
               "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Facade\\Controllers\\DomeinController.cs",
               "RelativeToolTip": "WeerEventsApi\\Facade\\Controllers\\DomeinController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:39:47.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeerBericht.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\WeerBericht.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\WeerBericht.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\WeerBericht.cs",
-              "RelativeToolTip": "WeerEventsApi\\Domein\\WeerBericht.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T08:37:22.668Z",
+              "WhenOpened": "2025-05-24T14:07:11.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeerStation.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Stations\\WeerStation.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Stations\\WeerStation.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Stations\\WeerStation.cs",
-              "RelativeToolTip": "WeerEventsApi\\Domein\\Stations\\WeerStation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Program.cs",
+              "RelativeDocumentMoniker": "WeerEventsApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Program.cs",
+              "RelativeToolTip": "WeerEventsApi\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:59:39.438Z",
+              "WhenOpened": "2025-05-24T14:05:27.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Meting.cs",
-              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Meting.cs",
-              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Meting.cs",
-              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Meting.cs",
-              "RelativeToolTip": "WeerEventsApi\\Domein\\Meting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IWeerBericht.cs",
+              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\IWeerBericht.cs",
+              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Managers\\IWeerBericht.cs",
+              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\IWeerBericht.cs",
+              "RelativeToolTip": "WeerEventsApi\\Domein\\Managers\\IWeerBericht.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:59:37.197Z",
+              "WhenOpened": "2025-05-24T14:03:35.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeerBericht.cs",
+              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\WeerBericht.cs",
+              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\WeerBericht.cs",
+              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\WeerBericht.cs",
+              "RelativeToolTip": "WeerEventsApi\\Domein\\WeerBericht.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:03:40.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeerberichtManager.cs",
+              "DocumentMoniker": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\WeerberichtManager.cs",
+              "RelativeDocumentMoniker": "WeerEventsApi\\Domein\\Managers\\WeerberichtManager.cs",
+              "ToolTip": "C:\\Users\\Michi\\Desktop\\WeerApp\\WeerStart\\WeerStart\\WeerEventsApi\\Domein\\Managers\\WeerberichtManager.cs",
+              "RelativeToolTip": "WeerEventsApi\\Domein\\Managers\\WeerberichtManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:03:37.042Z",
               "EditorCaption": ""
             }
           ]

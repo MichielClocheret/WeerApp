@@ -1,4 +1,6 @@
+using WeerEventsApi.Domein;
 using WeerEventsApi.Domein.Managers;
+using WeerEventsApi.Domein.Stations;
 using WeerEventsApi.Facade.Dto;
 using WeerEventsApi.Steden.Managers;
 
@@ -8,11 +10,13 @@ public class DomeinController : IDomeinController
 {
     private readonly IStadManager _stadManager;
     private readonly IWeerStation _weerStation;
+    private readonly IWeerBericht _weerBericht;
 
-    public DomeinController(IStadManager stadManager, IWeerStation weerStationManager)
+    public DomeinController(IStadManager stadManager, IWeerStation weerStationManager, IWeerBericht weerbericht)
     {
         _stadManager = stadManager;
         _weerStation = weerStationManager;
+        _weerBericht = weerbericht;
     }
 
     public IEnumerable<StadDto> GeefSteden()
@@ -28,28 +32,44 @@ public class DomeinController : IDomeinController
     public IEnumerable<WeerStationDto> GeefWeerstations()
     {  
         //TODO
-        return _weerStation.GeefWeerStations().Select(w => new WeerStationDto
-        {
-            Locatie = w.Locatie,
-            GedaneMetingen = w.GedaneMetingen,
+        return _weerStation.GeefWeerStations().Select(weerstation => new WeerStationDto
+        { 
+            Locatie = weerstation.Locatie,
+            GedaneMetingen = weerstation.GedaneMetingen
         });
     }
 
     public IEnumerable<MetingDto> GeefMetingen()
     {
         //TODO
-        throw new NotImplementedException();
+        return _weerStation.GeefWeerStations().SelectMany(weerstation => weerstation.GedaneMetingen)
+            .Select(m => new MetingDto
+            {
+                TijdVanMeting = m.TijdVanMeting,
+                Waarde = m.Waarde,
+                Eenheid = m.Eenheid,
+                Locatie = m.Locatie
+            });
     }
 
     public void DoeMetingen()
     {
         //TODO
-        throw new NotImplementedException();
+        _weerStation.DoeMetingen();
     }
 
     public WeerBerichtDto GeefWeerbericht()
     {
         //TODO
-        throw new NotImplementedException();
+        var metingen = _weerStation.GeefWeerStations()
+            .SelectMany(ws => ws.GeefGedaneMetingen()).ToList();
+
+        var weerBericht = _weerBericht.GenereerWeerBericht(metingen);
+
+        return new WeerBerichtDto
+        {
+            TijdVanCreatie = weerBericht.TijdVanCreatie,
+            Inhoud = weerBericht.Inhoud
+        };
     }
 }

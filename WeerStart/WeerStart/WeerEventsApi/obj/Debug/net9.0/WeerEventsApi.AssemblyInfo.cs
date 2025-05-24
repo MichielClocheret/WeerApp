@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeerEventsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74edea5e3dad07015099646da337f3baa330b45b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+312d4348d24a4cf77637cdc159959b0a2bd16b85")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeerEventsApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeerEventsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

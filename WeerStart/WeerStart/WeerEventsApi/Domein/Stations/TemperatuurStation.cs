@@ -1,4 +1,5 @@
 
+using WeerEventsApi.Events;
 using WeerEventsApi.Steden;
 
 namespace WeerEventsApi.Domein.Stations;
@@ -7,17 +8,19 @@ public class TemperatuurStation : WeerStation
 {
     private readonly Random random = new();
 
-    public TemperatuurStation(Stad locatie) : base(locatie)
-    {
-                
-    }
+    public TemperatuurStation(Stad locatie) : base(locatie) { }
 
-    public override Meting GenereerMeting()
+    public override Meting DoeMeting()
     {
         double waarde = random.Next(-5, 30);
-        Meting nieuweMeting = new (waarde, Eenheid.GradenCelsius, Locatie);
+        Meting nieuweMeting = new (waarde, Eenheid.C, Locatie);
 
-        VoegMetingToe(nieuweMeting);
+        //VoegMetingToe(nieuweMeting);
+        //return nieuweMeting;
+
+        GedaneMetingen.Add(nieuweMeting); // Voeg toe aan lokale lijst
+        MetingEvent.Publiceer(nieuweMeting); // Event publiceren
+
         return nieuweMeting;
     }
 }
