@@ -11,9 +11,9 @@ Eindopdracht SoftwareOntwerp 2:
 Er wordt bijvoorbeeld gebruik gemaakt van de proxy, decorator en facade pattern.
 
 # Run & Build & Tests
-(Run) => dotnet build 
-(Build) => dotnet run --project WeerApp
-(Test): Testen gebeurd via het ApiCalls.http bestand
+- (Run) => dotnet build 
+- (Build) => dotnet run --project WeerApp
+- (Test): Testen gebeurd via het ApiCalls.http bestand
 
 
 
